@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC964CBE1DE04DB500435BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC964CBD1DE04DB500435BF5 /* AppDelegate.swift */; };
+		DC964CC01DE04DB500435BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC964CBF1DE04DB500435BF5 /* ViewController.swift */; };
+		DC964CC31DE04DB500435BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC964CC11DE04DB500435BF5 /* Main.storyboard */; };
+		DC964CC51DE04DB500435BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC964CC41DE04DB500435BF5 /* Assets.xcassets */; };
+		DC964CC81DE04DB500435BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC964CC61DE04DB500435BF5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC964CBA1DE04DB500435BF5 /* Draw LeD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Draw LeD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC964CBD1DE04DB500435BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC964CBF1DE04DB500435BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC964CC21DE04DB500435BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC964CC41DE04DB500435BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC964CC71DE04DB500435BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC964CC91DE04DB500435BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC964CB71DE04DB500435BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC964CB11DE04DB500435BF5 = {
+			isa = PBXGroup;
+			children = (
+				DC964CBC1DE04DB500435BF5 /* Draw LeD */,
+				DC964CBB1DE04DB500435BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC964CBB1DE04DB500435BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC964CBA1DE04DB500435BF5 /* Draw LeD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC964CBC1DE04DB500435BF5 /* Draw LeD */ = {
+			isa = PBXGroup;
+			children = (
+				DC964CBD1DE04DB500435BF5 /* AppDelegate.swift */,
+				DC964CBF1DE04DB500435BF5 /* ViewController.swift */,
+				DC964CC11DE04DB500435BF5 /* Main.storyboard */,
+				DC964CC41DE04DB500435BF5 /* Assets.xcassets */,
+				DC964CC61DE04DB500435BF5 /* LaunchScreen.storyboard */,
+				DC964CC91DE04DB500435BF5 /* Info.plist */,
+			);
+			path = "Draw LeD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC964CB91DE04DB500435BF5 /* Draw LeD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC964CCC1DE04DB500435BF5 /* Build configuration list for PBXNativeTarget "Draw LeD" */;
+			buildPhases = (
+				DC964CB61DE04DB500435BF5 /* Sources */,
+				DC964CB71DE04DB500435BF5 /* Frameworks */,
+				DC964CB81DE04DB500435BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Draw LeD";
+			productName = "Draw LeD";
+			productReference = DC964CBA1DE04DB500435BF5 /* Draw LeD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC964CB21DE04DB500435BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = doantuan;
+				TargetAttributes = {
+					DC964CB91DE04DB500435BF5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 25ZS53YZR8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC964CB51DE04DB500435BF5 /* Build configuration list for PBXProject "Draw LeD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC964CB11DE04DB500435BF5;
+			productRefGroup = DC964CBB1DE04DB500435BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC964CB91DE04DB500435BF5 /* Draw LeD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC964CB81DE04DB500435BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC964CC81DE04DB500435BF5 /* LaunchScreen.storyboard in Resources */,
+				DC964CC51DE04DB500435BF5 /* Assets.xcassets in Resources */,
+				DC964CC31DE04DB500435BF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC964CB61DE04DB500435BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC964CC01DE04DB500435BF5 /* ViewController.swift in Sources */,
+				DC964CBE1DE04DB500435BF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC964CC11DE04DB500435BF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC964CC21DE04DB500435BF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC964CC61DE04DB500435BF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC964CC71DE04DB500435BF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC964CCA1DE04DB500435BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC964CCB1DE04DB500435BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC964CCD1DE04DB500435BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25ZS53YZR8;
+				INFOPLIST_FILE = "Draw LeD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doantuan.Draw-LeD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC964CCE1DE04DB500435BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25ZS53YZR8;
+				INFOPLIST_FILE = "Draw LeD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "doantuan.Draw-LeD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC964CB51DE04DB500435BF5 /* Build configuration list for PBXProject "Draw LeD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC964CCA1DE04DB500435BF5 /* Debug */,
+				DC964CCB1DE04DB500435BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC964CCC1DE04DB500435BF5 /* Build configuration list for PBXNativeTarget "Draw LeD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC964CCD1DE04DB500435BF5 /* Debug */,
+				DC964CCE1DE04DB500435BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC964CB21DE04DB500435BF5 /* Project object */;
+}
